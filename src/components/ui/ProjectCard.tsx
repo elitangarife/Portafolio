@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function ProjectCard({ project, onOpen }: ProjectCardProps) {
   return (
     <div 
-      className="bg-white/90 backdrop-blur-sm w-68 rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-1 transition cursor-pointer p-4"
+  className="bg-white/90 backdrop-blur-sm w-full rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-1 transition cursor-pointer p-4"
       onClick={() => onOpen(project)}
     >
       <div className="absolute inset-0 blur-3xl bg-blue-200 opacity-40 rounded-full"></div>
