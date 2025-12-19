@@ -7,12 +7,13 @@ export default function Home() {
   return (
     <main className="relative w-full h-screen flex flex-col items-center justify-center text-center bg-[#f5f5f7] overflow-hidden px-6">
 
-      {/* BLOBS */}
-      <div className="absolute top-[-10%] left-[-10%] w-[350px] h-[350px] bg-linear-to-br from-pink-300 via-purple-300 to-blue-300 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+      <div className="absolute top-[-10%] left-[-10%] w-[350px] h-[350px] bg-linear-to-br from-pink-500 via-purple-500 to-blue-500 rounded-full blur-3xl opacity-40 animate-pulse"></div>
 
-      <div className="absolute top-[5%] right-[-10%] w-[300px] h-[300px] bg-linear-to-br from-green-300 via-teal-200 to-yellow-200 rounded-full blur-3xl opacity-40 animate-[float_6s_ease-in-out_infinite]"></div>
+      <div className="absolute top-[5%] right-[-10%] w-[300px] h-[300px] bg-linear-to-br from-green-500 via-teal-400 to-yellow-400 rounded-full blur-2xl opacity-40 animate-[float_6s_ease-in-out_infinite]"></div>
 
-      <div className="absolute bottom-[-15%] left-[10%] w-[450px] h-[450px] bg-linear-to-br from-blue-300 via-cyan-200 to-purple-200 rounded-full blur-3xl opacity-35 animate-[float_7s_ease-in-out_infinite]"></div>
+      <div className="absolute bottom-[-15%] left-[10%] w-[450px] h-[450px] bg-linear-to-br from-blue-500 via-cyan-400 to-purple-400 rounded-full blur-3xl opacity-35 animate-[float_7s_ease-in-out_infinite]"></div>
+      
+      <div className="absolute bottom-[-30%] right-[5%]  w-[350px] h-[350px] bg-linear-to-br from-pink-500 via-purple-500 to-blue-500 rounded-full blur-3xl opacity-40 animate-pulse"></div>
 
       <div className="relative z-10 max-w-3xl animate-[fadeInUp_1s_ease]">
 
